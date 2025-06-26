@@ -21,4 +21,4 @@ jobs:
     #   - name: run it
     #     run: |
     #       env
-    uses: toomanybees/the_action@main
+    uses: toomanybees/the_action/.github/workflows/the-workflow.yml@main
