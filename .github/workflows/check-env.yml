@@ -11,11 +11,13 @@ on:
 permissions:
   actions: read
 
+env:
+  JANKY_ENV_THING: thing
+
 jobs:
   the_job:
     runs-on: ubuntu-latest
     steps:
       - name: run it
         run: |
-          echo $(env)
           env
