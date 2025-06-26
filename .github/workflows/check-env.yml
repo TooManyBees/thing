@@ -12,7 +12,7 @@ permissions:
   actions: read
 
 env:
-  JANKY_ENV_THING: thing
+  JANKY_ENV_THING: ${{ inputs.word }}
 
 jobs:
   the_job:
