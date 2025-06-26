@@ -16,8 +16,9 @@ env:
 
 jobs:
   the_job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: run it
-        run: |
-          env
+    # runs-on: ubuntu-latest
+    # steps:
+    #   - name: run it
+    #     run: |
+    #       env
+    uses: toomanybees/the_action@main
