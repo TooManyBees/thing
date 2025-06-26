@@ -2,17 +2,17 @@ name: check env
 
 on:
   workflow_dispatch:
-    inputs:
-      word:
-        type: string
-        description: "The word"
-        required: false
+    # inputs:
+    #   word:
+    #     type: string
+    #     description: "The word"
+    #     required: false
 
 permissions:
   actions: read
 
 env:
-  WORD: ${{ inputs.word }}
+  WORD: some_word
 
 jobs:
   the_job:
